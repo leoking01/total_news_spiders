@@ -1,0 +1,1 @@
+nohup ./auto_scrapy_sina.sh>log  2>&1 &

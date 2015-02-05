@@ -1,0 +1,8 @@
+nohup ./auto_scrapy_sina.sh>log  2>&1 &
+nohup ./auto_scrapy_qq.sh>log  2>&1 &
+nohup ./auto_scrapy_all.sh>log  2>&1 &
+nohup ./auto_scrapy_baidu.sh>log  2>&1 &
+
+
+mark: 
+    20150202:下午17:55解决了编码问题。新闻采集工作恢复。

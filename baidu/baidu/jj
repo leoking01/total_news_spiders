@@ -1,0 +1,745 @@
+************************************************************************************************************************
+****************************************************  file   count  ****************************************************
+************************************************************************************************************************
+自12月30日开始，当日数据不再与之前数据有重复.
+director base:  /data/news_data/
+directors list: 
+qq_news
+sina_news
+all_news
+baidu_news
+
+
+directory:  /data/news_data/qq_news
+========================================================================================================================
+director                                                                             number
+	/data/news_data/qq_news/2014_12_24                                             31
+	/data/news_data/qq_news/2015_01_03                                            239
+	/data/news_data/qq_news/2015_01_08                                             67
+	/data/news_data/qq_news/2014_12_30                                            131
+	/data/news_data/qq_news/2014_12_29                                            216
+	/data/news_data/qq_news/2014_12_26                                             99
+	/data/news_data/qq_news/2015_01_06                                            254
+	/data/news_data/qq_news/2015_01_04                                            142
+	/data/news_data/qq_news/2015_01_01                                            140
+	/data/news_data/qq_news/2014_12_28                                             88
+	/data/news_data/qq_news/2015_01_02                                             38
+	/data/news_data/qq_news/2015_01_10                                             11
+	/data/news_data/qq_news/2015_01_07                                            130
+	/data/news_data/qq_news/2014_12_25                                             99
+	/data/news_data/qq_news/2015_01_09                                             52
+	/data/news_data/qq_news/2015_01_05                                             51
+	/data/news_data/qq_news/2014_12_27                                             34
+	/data/news_data/qq_news/2014_12_31                                             44
+---------------------------------
+all_dir_number  :            18
+all_total_number:             0
+date_number_dict: 
+{}
+
+
+directory:  /data/news_data/sina_news
+========================================================================================================================
+director                                                                             number
+	/data/news_data/sina_news/2015_01_03                                          226
+	/data/news_data/sina_news/2015_01_08                                           79
+	/data/news_data/sina_news/2014_12_30                                          135
+	/data/news_data/sina_news/2014_12_29                                          100
+	/data/news_data/sina_news/2015_01_06                                          256
+	/data/news_data/sina_news/2015_01_04                                          199
+	/data/news_data/sina_news/2015_01_01                                          159
+	/data/news_data/sina_news/2015_01_02                                           55
+	/data/news_data/sina_news/2015_01_10                                            0
+	/data/news_data/sina_news/2015_01_07                                          200
+	/data/news_data/sina_news/2015_01_09                                          141
+	/data/news_data/sina_news/2015_01_05                                          183
+	/data/news_data/sina_news/2014_12_31                                          132
+---------------------------------
+all_dir_number  :            13
+all_total_number:             0
+date_number_dict: 
+{}
+
+
+directory:  /data/news_data/all_news
+========================================================================================================================
+director                                                                             number
+	/data/news_data/all_news/www.sxaj.gov.cn_xx_zyhd                                5
+		/data/news_data/all_news/www.sxaj.gov.cn_xx_zyhd/2015_01_08                    11
+		/data/news_data/all_news/www.sxaj.gov.cn_xx_zyhd/2015_01_06                     9  too_small
+		/data/news_data/all_news/www.sxaj.gov.cn_xx_zyhd/2015_01_10                    20
+		/data/news_data/all_news/www.sxaj.gov.cn_xx_zyhd/2015_01_07                     0 scrapy_failure
+		/data/news_data/all_news/www.sxaj.gov.cn_xx_zyhd/2015_01_09                    11
+	/data/news_data/all_news/cq.qq.com_news_                                        5
+		/data/news_data/all_news/cq.qq.com_news_/2015_01_08                            14
+		/data/news_data/all_news/cq.qq.com_news_/2015_01_06                            22
+		/data/news_data/all_news/cq.qq.com_news_/2015_01_10                            13
+		/data/news_data/all_news/cq.qq.com_news_/2015_01_07                            18
+		/data/news_data/all_news/cq.qq.com_news_/2015_01_09                            10
+	/data/news_data/all_news/www.cq.chinanews.com_In                                1
+		/data/news_data/all_news/www.cq.chinanews.com_In/2015_01_06                     0 scrapy_failure
+	/data/news_data/all_news/fj.qq.com_news_                                        5
+		/data/news_data/all_news/fj.qq.com_news_/2015_01_08                             3  too_small
+		/data/news_data/all_news/fj.qq.com_news_/2015_01_06                           212
+		/data/news_data/all_news/fj.qq.com_news_/2015_01_10                            83
+		/data/news_data/all_news/fj.qq.com_news_/2015_01_07                             3  too_small
+		/data/news_data/all_news/fj.qq.com_news_/2015_01_09                             3  too_small
+	/data/news_data/all_news/www.nmg.chinanews.com_n                                5
+		/data/news_data/all_news/www.nmg.chinanews.com_n/2015_01_08                     0 scrapy_failure
+		/data/news_data/all_news/www.nmg.chinanews.com_n/2015_01_06                     0 scrapy_failure
+		/data/news_data/all_news/www.nmg.chinanews.com_n/2015_01_10                     0 scrapy_failure
+		/data/news_data/all_news/www.nmg.chinanews.com_n/2015_01_07                     0 scrapy_failure
+		/data/news_data/all_news/www.nmg.chinanews.com_n/2015_01_09                     0 scrapy_failure
+	/data/news_data/all_news/www.chinanews.com_best-                                5
+		/data/news_data/all_news/www.chinanews.com_best-/2015_01_08                    29
+		/data/news_data/all_news/www.chinanews.com_best-/2015_01_06                   118
+		/data/news_data/all_news/www.chinanews.com_best-/2015_01_10                   104
+		/data/news_data/all_news/www.chinanews.com_best-/2015_01_07                    75
+		/data/news_data/all_news/www.chinanews.com_best-/2015_01_09                    49
+	/data/news_data/all_news/www.qdajj.gov.cn_mainon                                2
+		/data/news_data/all_news/www.qdajj.gov.cn_mainon/2015_01_06                     0 scrapy_failure
+		/data/news_data/all_news/www.qdajj.gov.cn_mainon/2015_01_07                     0 scrapy_failure
+	/data/news_data/all_news/www.hunansafety.gov.cn_                                5
+		/data/news_data/all_news/www.hunansafety.gov.cn_/2015_01_08                     0 scrapy_failure
+		/data/news_data/all_news/www.hunansafety.gov.cn_/2015_01_06                     0 scrapy_failure
+		/data/news_data/all_news/www.hunansafety.gov.cn_/2015_01_10                     0 scrapy_failure
+		/data/news_data/all_news/www.hunansafety.gov.cn_/2015_01_07                     0 scrapy_failure
+		/data/news_data/all_news/www.hunansafety.gov.cn_/2015_01_09                     0 scrapy_failure
+	/data/news_data/all_news/politics.gmw.cn_node_98                                5
+		/data/news_data/all_news/politics.gmw.cn_node_98/2015_01_08                    90
+		/data/news_data/all_news/politics.gmw.cn_node_98/2015_01_06                   150
+		/data/news_data/all_news/politics.gmw.cn_node_98/2015_01_10                   104
+		/data/news_data/all_news/politics.gmw.cn_node_98/2015_01_07                   143
+		/data/news_data/all_news/politics.gmw.cn_node_98/2015_01_09                   125
+	/data/news_data/all_news/news.ifeng.com_listpage                                5
+		/data/news_data/all_news/news.ifeng.com_listpage/2015_01_08                   268
+		/data/news_data/all_news/news.ifeng.com_listpage/2015_01_06                   157
+		/data/news_data/all_news/news.ifeng.com_listpage/2015_01_10                    82
+		/data/news_data/all_news/news.ifeng.com_listpage/2015_01_07                   244
+		/data/news_data/all_news/news.ifeng.com_listpage/2015_01_09                   191
+	/data/news_data/all_news/www.hnsaqscw.gov.cn_                                   5
+		/data/news_data/all_news/www.hnsaqscw.gov.cn_/2015_01_08                        0 scrapy_failure
+		/data/news_data/all_news/www.hnsaqscw.gov.cn_/2015_01_06                        0 scrapy_failure
+		/data/news_data/all_news/www.hnsaqscw.gov.cn_/2015_01_10                        0 scrapy_failure
+		/data/news_data/all_news/www.hnsaqscw.gov.cn_/2015_01_07                        0 scrapy_failure
+		/data/news_data/all_news/www.hnsaqscw.gov.cn_/2015_01_09                        0 scrapy_failure
+	/data/news_data/all_news/henan.qq.com_l_news_blt                                5
+		/data/news_data/all_news/henan.qq.com_l_news_blt/2015_01_08                    22
+		/data/news_data/all_news/henan.qq.com_l_news_blt/2015_01_06                    37
+		/data/news_data/all_news/henan.qq.com_l_news_blt/2015_01_10                    36
+		/data/news_data/all_news/henan.qq.com_l_news_blt/2015_01_07                    34
+		/data/news_data/all_news/henan.qq.com_l_news_blt/2015_01_09                    28
+	/data/news_data/all_news/www.lnsafety.gov.cn_qui                                5
+		/data/news_data/all_news/www.lnsafety.gov.cn_qui/2015_01_08                     0 scrapy_failure
+		/data/news_data/all_news/www.lnsafety.gov.cn_qui/2015_01_06                     0 scrapy_failure
+		/data/news_data/all_news/www.lnsafety.gov.cn_qui/2015_01_10                     0 scrapy_failure
+		/data/news_data/all_news/www.lnsafety.gov.cn_qui/2015_01_07                     0 scrapy_failure
+		/data/news_data/all_news/www.lnsafety.gov.cn_qui/2015_01_09                     0 scrapy_failure
+	/data/news_data/all_news/life.gmw.cn_node_9268.h                                5
+		/data/news_data/all_news/life.gmw.cn_node_9268.h/2015_01_08                    37
+		/data/news_data/all_news/life.gmw.cn_node_9268.h/2015_01_06                    85
+		/data/news_data/all_news/life.gmw.cn_node_9268.h/2015_01_10                    46
+		/data/news_data/all_news/life.gmw.cn_node_9268.h/2015_01_07                    34
+		/data/news_data/all_news/life.gmw.cn_node_9268.h/2015_01_09                    21
+	/data/news_data/all_news/henan.qq.com_l_news_hlt                                5
+		/data/news_data/all_news/henan.qq.com_l_news_hlt/2015_01_08                    56
+		/data/news_data/all_news/henan.qq.com_l_news_hlt/2015_01_06                    45
+		/data/news_data/all_news/henan.qq.com_l_news_hlt/2015_01_10                    45
+		/data/news_data/all_news/henan.qq.com_l_news_hlt/2015_01_07                    35
+		/data/news_data/all_news/henan.qq.com_l_news_hlt/2015_01_09                    49
+	/data/news_data/all_news/js.qq.com_news_index.ht                                5
+		/data/news_data/all_news/js.qq.com_news_index.ht/2015_01_08                    28
+		/data/news_data/all_news/js.qq.com_news_index.ht/2015_01_06                   130
+		/data/news_data/all_news/js.qq.com_news_index.ht/2015_01_10                   124
+		/data/news_data/all_news/js.qq.com_news_index.ht/2015_01_07                    33
+		/data/news_data/all_news/js.qq.com_news_index.ht/2015_01_09                    31
+	/data/news_data/all_news/www.yn.chinanews.com_yn                                5
+		/data/news_data/all_news/www.yn.chinanews.com_yn/2015_01_08                     0 scrapy_failure
+		/data/news_data/all_news/www.yn.chinanews.com_yn/2015_01_06                     0 scrapy_failure
+		/data/news_data/all_news/www.yn.chinanews.com_yn/2015_01_10                     0 scrapy_failure
+		/data/news_data/all_news/www.yn.chinanews.com_yn/2015_01_07                     0 scrapy_failure
+		/data/news_data/all_news/www.yn.chinanews.com_yn/2015_01_09                     0 scrapy_failure
+	/data/news_data/all_news/www.gs.chinanews.com_gs                                5
+		/data/news_data/all_news/www.gs.chinanews.com_gs/2015_01_08                     0 scrapy_failure
+		/data/news_data/all_news/www.gs.chinanews.com_gs/2015_01_06                     0 scrapy_failure
+		/data/news_data/all_news/www.gs.chinanews.com_gs/2015_01_10                     0 scrapy_failure
+		/data/news_data/all_news/www.gs.chinanews.com_gs/2015_01_07                     0 scrapy_failure
+		/data/news_data/all_news/www.gs.chinanews.com_gs/2015_01_09                     0 scrapy_failure
+	/data/news_data/all_news/news.ifeng.com_society_                                5
+		/data/news_data/all_news/news.ifeng.com_society_/2015_01_08                    37
+		/data/news_data/all_news/news.ifeng.com_society_/2015_01_06                    26
+		/data/news_data/all_news/news.ifeng.com_society_/2015_01_10                     0 scrapy_failure
+		/data/news_data/all_news/news.ifeng.com_society_/2015_01_07                     0 scrapy_failure
+		/data/news_data/all_news/news.ifeng.com_society_/2015_01_09                     0 scrapy_failure
+	/data/news_data/all_news/www.news.cn_local_dfyw_                                5
+		/data/news_data/all_news/www.news.cn_local_dfyw_/2015_01_08                     1  too_small
+		/data/news_data/all_news/www.news.cn_local_dfyw_/2015_01_06                    50
+		/data/news_data/all_news/www.news.cn_local_dfyw_/2015_01_10                    33
+		/data/news_data/all_news/www.news.cn_local_dfyw_/2015_01_07                    15
+		/data/news_data/all_news/www.news.cn_local_dfyw_/2015_01_09                    24
+	/data/news_data/all_news/www.ha.chinanews.com_GN                                5
+		/data/news_data/all_news/www.ha.chinanews.com_GN/2015_01_08                     0 scrapy_failure
+		/data/news_data/all_news/www.ha.chinanews.com_GN/2015_01_06                     0 scrapy_failure
+		/data/news_data/all_news/www.ha.chinanews.com_GN/2015_01_10                     0 scrapy_failure
+		/data/news_data/all_news/www.ha.chinanews.com_GN/2015_01_07                     0 scrapy_failure
+		/data/news_data/all_news/www.ha.chinanews.com_GN/2015_01_09                     0 scrapy_failure
+	/data/news_data/all_news/news.baidu.com_n_cmd=4&                                4
+		/data/news_data/all_news/news.baidu.com_n_cmd=4&/2015_01_08                    96
+		/data/news_data/all_news/news.baidu.com_n_cmd=4&/2015_01_10                     3  too_small
+		/data/news_data/all_news/news.baidu.com_n_cmd=4&/2015_01_07                   136
+		/data/news_data/all_news/news.baidu.com_n_cmd=4&/2015_01_09                   117
+	/data/news_data/all_news/henan.qq.com_news_                                     5
+		/data/news_data/all_news/henan.qq.com_news_/2015_01_08                         26
+		/data/news_data/all_news/henan.qq.com_news_/2015_01_06                         38
+		/data/news_data/all_news/henan.qq.com_news_/2015_01_10                         73
+		/data/news_data/all_news/henan.qq.com_news_/2015_01_07                         18
+		/data/news_data/all_news/henan.qq.com_news_/2015_01_09                         31
+	/data/news_data/all_news/society.people.com.cn_                                 5
+		/data/news_data/all_news/society.people.com.cn_/2015_01_08                     34
+		/data/news_data/all_news/society.people.com.cn_/2015_01_06                     58
+		/data/news_data/all_news/society.people.com.cn_/2015_01_10                     48
+		/data/news_data/all_news/society.people.com.cn_/2015_01_07                     43
+		/data/news_data/all_news/society.people.com.cn_/2015_01_09                     20
+	/data/news_data/all_news/www.nbsafety.cn_zwgk_aq                                5
+		/data/news_data/all_news/www.nbsafety.cn_zwgk_aq/2015_01_08                     0 scrapy_failure
+		/data/news_data/all_news/www.nbsafety.cn_zwgk_aq/2015_01_06                     0 scrapy_failure
+		/data/news_data/all_news/www.nbsafety.cn_zwgk_aq/2015_01_10                     0 scrapy_failure
+		/data/news_data/all_news/www.nbsafety.cn_zwgk_aq/2015_01_07                     0 scrapy_failure
+		/data/news_data/all_news/www.nbsafety.cn_zwgk_aq/2015_01_09                     0 scrapy_failure
+	/data/news_data/all_news/xian.qq.com_life_                                      5
+		/data/news_data/all_news/xian.qq.com_life_/2015_01_08                          24
+		/data/news_data/all_news/xian.qq.com_life_/2015_01_06                          26
+		/data/news_data/all_news/xian.qq.com_life_/2015_01_10                          26
+		/data/news_data/all_news/xian.qq.com_life_/2015_01_07                          14
+		/data/news_data/all_news/xian.qq.com_life_/2015_01_09                          15
+	/data/news_data/all_news/www.js.chinanews.com_ci                                5
+		/data/news_data/all_news/www.js.chinanews.com_ci/2015_01_08                    41
+		/data/news_data/all_news/www.js.chinanews.com_ci/2015_01_06                   111
+		/data/news_data/all_news/www.js.chinanews.com_ci/2015_01_10                   107
+		/data/news_data/all_news/www.js.chinanews.com_ci/2015_01_07                    41
+		/data/news_data/all_news/www.js.chinanews.com_ci/2015_01_09                    27
+	/data/news_data/all_news/www.snsafety.gov.cn_                                   4
+		/data/news_data/all_news/www.snsafety.gov.cn_/2015_01_08                        0 scrapy_failure
+		/data/news_data/all_news/www.snsafety.gov.cn_/2015_01_06                        0 scrapy_failure
+		/data/news_data/all_news/www.snsafety.gov.cn_/2015_01_07                        0 scrapy_failure
+		/data/news_data/all_news/www.snsafety.gov.cn_/2015_01_09                        0 scrapy_failure
+	/data/news_data/all_news/www.hlsafety.gov.cn_zwg                                1
+		/data/news_data/all_news/www.hlsafety.gov.cn_zwg/2015_01_06                     5  too_small
+	/data/news_data/all_news/www.fj.chinanews.com_ne                                5
+		/data/news_data/all_news/www.fj.chinanews.com_ne/2015_01_08                     0 scrapy_failure
+		/data/news_data/all_news/www.fj.chinanews.com_ne/2015_01_06                     0 scrapy_failure
+		/data/news_data/all_news/www.fj.chinanews.com_ne/2015_01_10                     0 scrapy_failure
+		/data/news_data/all_news/www.fj.chinanews.com_ne/2015_01_07                     0 scrapy_failure
+		/data/news_data/all_news/www.fj.chinanews.com_ne/2015_01_09                     0 scrapy_failure
+	/data/news_data/all_news/www.shx.chinanews.com_s                                5
+		/data/news_data/all_news/www.shx.chinanews.com_s/2015_01_08                     0 scrapy_failure
+		/data/news_data/all_news/www.shx.chinanews.com_s/2015_01_06                     0 scrapy_failure
+		/data/news_data/all_news/www.shx.chinanews.com_s/2015_01_10                     0 scrapy_failure
+		/data/news_data/all_news/www.shx.chinanews.com_s/2015_01_07                     0 scrapy_failure
+		/data/news_data/all_news/www.shx.chinanews.com_s/2015_01_09                     0 scrapy_failure
+	/data/news_data/all_news/news.qq.com_top_index.s                                5
+		/data/news_data/all_news/news.qq.com_top_index.s/2015_01_08                     0 scrapy_failure
+		/data/news_data/all_news/news.qq.com_top_index.s/2015_01_06                     2  too_small
+		/data/news_data/all_news/news.qq.com_top_index.s/2015_01_10                     0 scrapy_failure
+		/data/news_data/all_news/news.qq.com_top_index.s/2015_01_07                     0 scrapy_failure
+		/data/news_data/all_news/news.qq.com_top_index.s/2015_01_09                     0 scrapy_failure
+	/data/news_data/all_news/guonei.news.baidu.com_                                 2
+		/data/news_data/all_news/guonei.news.baidu.com_/2015_01_06                    123
+		/data/news_data/all_news/guonei.news.baidu.com_/2015_01_07                     28
+	/data/news_data/all_news/ln.qq.com_l_news_news_m                                5
+		/data/news_data/all_news/ln.qq.com_l_news_news_m/2015_01_08                    10
+		/data/news_data/all_news/ln.qq.com_l_news_news_m/2015_01_06                    49
+		/data/news_data/all_news/ln.qq.com_l_news_news_m/2015_01_10                    50
+		/data/news_data/all_news/ln.qq.com_l_news_news_m/2015_01_07                    14
+		/data/news_data/all_news/ln.qq.com_l_news_news_m/2015_01_09                     8  too_small
+	/data/news_data/all_news/society.huanqiu.com_                                   2
+		/data/news_data/all_news/society.huanqiu.com_/2015_01_06                        2  too_small
+		/data/news_data/all_news/society.huanqiu.com_/2015_01_07                        0 scrapy_failure
+	/data/news_data/all_news/www.hkcna.hk_m_wgyw.htm                                5
+		/data/news_data/all_news/www.hkcna.hk_m_wgyw.htm/2015_01_08                    13
+		/data/news_data/all_news/www.hkcna.hk_m_wgyw.htm/2015_01_06                   127
+		/data/news_data/all_news/www.hkcna.hk_m_wgyw.htm/2015_01_10                   114
+		/data/news_data/all_news/www.hkcna.hk_m_wgyw.htm/2015_01_07                    52
+		/data/news_data/all_news/www.hkcna.hk_m_wgyw.htm/2015_01_09                    44
+	/data/news_data/all_news/news.stnn.cc_china_                                    5
+		/data/news_data/all_news/news.stnn.cc_china_/2015_01_08                        12
+		/data/news_data/all_news/news.stnn.cc_china_/2015_01_06                        33
+		/data/news_data/all_news/news.stnn.cc_china_/2015_01_10                        34
+		/data/news_data/all_news/news.stnn.cc_china_/2015_01_07                        22
+		/data/news_data/all_news/news.stnn.cc_china_/2015_01_09                        10
+	/data/news_data/all_news/www.sc.chinanews.com_ne                                5
+		/data/news_data/all_news/www.sc.chinanews.com_ne/2015_01_08                     0 scrapy_failure
+		/data/news_data/all_news/www.sc.chinanews.com_ne/2015_01_06                     0 scrapy_failure
+		/data/news_data/all_news/www.sc.chinanews.com_ne/2015_01_10                     0 scrapy_failure
+		/data/news_data/all_news/www.sc.chinanews.com_ne/2015_01_07                     0 scrapy_failure
+		/data/news_data/all_news/www.sc.chinanews.com_ne/2015_01_09                     0 scrapy_failure
+	/data/news_data/all_news/www.hb.chinanews.com_hb                                5
+		/data/news_data/all_news/www.hb.chinanews.com_hb/2015_01_08                     9  too_small
+		/data/news_data/all_news/www.hb.chinanews.com_hb/2015_01_06                    99
+		/data/news_data/all_news/www.hb.chinanews.com_hb/2015_01_10                    99
+		/data/news_data/all_news/www.hb.chinanews.com_hb/2015_01_07                     4  too_small
+		/data/news_data/all_news/www.hb.chinanews.com_hb/2015_01_09                    13
+	/data/news_data/all_news/news.cyol.com_                                         5
+		/data/news_data/all_news/news.cyol.com_/2015_01_08                              0 scrapy_failure
+		/data/news_data/all_news/news.cyol.com_/2015_01_06                              1  too_small
+		/data/news_data/all_news/news.cyol.com_/2015_01_10                              1  too_small
+		/data/news_data/all_news/news.cyol.com_/2015_01_07                              0 scrapy_failure
+		/data/news_data/all_news/news.cyol.com_/2015_01_09                              0 scrapy_failure
+	/data/news_data/all_news/www.bt.chinanews.com_Ne                                5
+		/data/news_data/all_news/www.bt.chinanews.com_Ne/2015_01_08                     0 scrapy_failure
+		/data/news_data/all_news/www.bt.chinanews.com_Ne/2015_01_06                     0 scrapy_failure
+		/data/news_data/all_news/www.bt.chinanews.com_Ne/2015_01_10                     0 scrapy_failure
+		/data/news_data/all_news/www.bt.chinanews.com_Ne/2015_01_07                     0 scrapy_failure
+		/data/news_data/all_news/www.bt.chinanews.com_Ne/2015_01_09                     0 scrapy_failure
+	/data/news_data/all_news/news.sina.com.cn_china_                                5
+		/data/news_data/all_news/news.sina.com.cn_china_/2015_01_08                    77
+		/data/news_data/all_news/news.sina.com.cn_china_/2015_01_06                    22
+		/data/news_data/all_news/news.sina.com.cn_china_/2015_01_10                   119
+		/data/news_data/all_news/news.sina.com.cn_china_/2015_01_07                     7  too_small
+		/data/news_data/all_news/news.sina.com.cn_china_/2015_01_09                    79
+	/data/news_data/all_news/news.qq.com_society_ind                                5
+		/data/news_data/all_news/news.qq.com_society_ind/2015_01_08                     0 scrapy_failure
+		/data/news_data/all_news/news.qq.com_society_ind/2015_01_06                     0 scrapy_failure
+		/data/news_data/all_news/news.qq.com_society_ind/2015_01_10                     0 scrapy_failure
+		/data/news_data/all_news/news.qq.com_society_ind/2015_01_07                     0 scrapy_failure
+		/data/news_data/all_news/news.qq.com_society_ind/2015_01_09                     0 scrapy_failure
+	/data/news_data/all_news/ln.qq.com_l_news_news_s                                5
+		/data/news_data/all_news/ln.qq.com_l_news_news_s/2015_01_08                    15
+		/data/news_data/all_news/ln.qq.com_l_news_news_s/2015_01_06                    50
+		/data/news_data/all_news/ln.qq.com_l_news_news_s/2015_01_10                    50
+		/data/news_data/all_news/ln.qq.com_l_news_news_s/2015_01_07                    22
+		/data/news_data/all_news/ln.qq.com_l_news_news_s/2015_01_09                    14
+	/data/news_data/all_news/www.chinanews.com_socie                                5
+		/data/news_data/all_news/www.chinanews.com_socie/2015_01_08                   246
+		/data/news_data/all_news/www.chinanews.com_socie/2015_01_06                   332
+		/data/news_data/all_news/www.chinanews.com_socie/2015_01_10                   185
+		/data/news_data/all_news/www.chinanews.com_socie/2015_01_07                   384
+		/data/news_data/all_news/www.chinanews.com_socie/2015_01_09                   299
+	/data/news_data/all_news/news.ycwb.com_n_gn.htm                                 5
+		/data/news_data/all_news/news.ycwb.com_n_gn.htm/2015_01_08                     93
+		/data/news_data/all_news/news.ycwb.com_n_gn.htm/2015_01_06                    104
+		/data/news_data/all_news/news.ycwb.com_n_gn.htm/2015_01_10                     40
+		/data/news_data/all_news/news.ycwb.com_n_gn.htm/2015_01_07                    179
+		/data/news_data/all_news/news.ycwb.com_n_gn.htm/2015_01_09                    102
+	/data/news_data/all_news/www.tibetsafety.gov.cn_                                5
+		/data/news_data/all_news/www.tibetsafety.gov.cn_/2015_01_08                     0 scrapy_failure
+		/data/news_data/all_news/www.tibetsafety.gov.cn_/2015_01_06                     0 scrapy_failure
+		/data/news_data/all_news/www.tibetsafety.gov.cn_/2015_01_10                     0 scrapy_failure
+		/data/news_data/all_news/www.tibetsafety.gov.cn_/2015_01_07                     0 scrapy_failure
+		/data/news_data/all_news/www.tibetsafety.gov.cn_/2015_01_09                     0 scrapy_failure
+	/data/news_data/all_news/www.ln.chinanews.com_li                                5
+		/data/news_data/all_news/www.ln.chinanews.com_li/2015_01_08                    60
+		/data/news_data/all_news/www.ln.chinanews.com_li/2015_01_06                   372
+		/data/news_data/all_news/www.ln.chinanews.com_li/2015_01_10                   398
+		/data/news_data/all_news/www.ln.chinanews.com_li/2015_01_07                    51
+		/data/news_data/all_news/www.ln.chinanews.com_li/2015_01_09                    58
+	/data/news_data/all_news/news.sina.com.cn_societ                                5
+		/data/news_data/all_news/news.sina.com.cn_societ/2015_01_08                    76
+		/data/news_data/all_news/news.sina.com.cn_societ/2015_01_06                   159
+		/data/news_data/all_news/news.sina.com.cn_societ/2015_01_10                   105
+		/data/news_data/all_news/news.sina.com.cn_societ/2015_01_07                    92
+		/data/news_data/all_news/news.sina.com.cn_societ/2015_01_09                   104
+	/data/news_data/all_news/www.gxajj.com_html_acci                                5
+		/data/news_data/all_news/www.gxajj.com_html_acci/2015_01_08                     0 scrapy_failure
+		/data/news_data/all_news/www.gxajj.com_html_acci/2015_01_06                     0 scrapy_failure
+		/data/news_data/all_news/www.gxajj.com_html_acci/2015_01_10                     0 scrapy_failure
+		/data/news_data/all_news/www.gxajj.com_html_acci/2015_01_07                     0 scrapy_failure
+		/data/news_data/all_news/www.gxajj.com_html_acci/2015_01_09                     0 scrapy_failure
+	/data/news_data/all_news/www.zj.chinanews.com_zh                                5
+		/data/news_data/all_news/www.zj.chinanews.com_zh/2015_01_08                     0 scrapy_failure
+		/data/news_data/all_news/www.zj.chinanews.com_zh/2015_01_06                     0 scrapy_failure
+		/data/news_data/all_news/www.zj.chinanews.com_zh/2015_01_10                     0 scrapy_failure
+		/data/news_data/all_news/www.zj.chinanews.com_zh/2015_01_07                     0 scrapy_failure
+		/data/news_data/all_news/www.zj.chinanews.com_zh/2015_01_09                     0 scrapy_failure
+	/data/news_data/all_news/henan.qq.com_l_news_hnx                                5
+		/data/news_data/all_news/henan.qq.com_l_news_hnx/2015_01_08                     1  too_small
+		/data/news_data/all_news/henan.qq.com_l_news_hnx/2015_01_06                    32
+		/data/news_data/all_news/henan.qq.com_l_news_hnx/2015_01_10                    39
+		/data/news_data/all_news/henan.qq.com_l_news_hnx/2015_01_07                     0 scrapy_failure
+		/data/news_data/all_news/henan.qq.com_l_news_hnx/2015_01_09                    12
+	/data/news_data/all_news/www.hn.chinanews.com_ne                                5
+		/data/news_data/all_news/www.hn.chinanews.com_ne/2015_01_08                     0 scrapy_failure
+		/data/news_data/all_news/www.hn.chinanews.com_ne/2015_01_06                     0 scrapy_failure
+		/data/news_data/all_news/www.hn.chinanews.com_ne/2015_01_10                     0 scrapy_failure
+		/data/news_data/all_news/www.hn.chinanews.com_ne/2015_01_07                     0 scrapy_failure
+		/data/news_data/all_news/www.hn.chinanews.com_ne/2015_01_09                     0 scrapy_failure
+	/data/news_data/all_news/ln.qq.com_news_                                        5
+		/data/news_data/all_news/ln.qq.com_news_/2015_01_08                             5  too_small
+		/data/news_data/all_news/ln.qq.com_news_/2015_01_06                            16
+		/data/news_data/all_news/ln.qq.com_news_/2015_01_10                            21
+		/data/news_data/all_news/ln.qq.com_news_/2015_01_07                             2  too_small
+		/data/news_data/all_news/ln.qq.com_news_/2015_01_09                            13
+	/data/news_data/all_news/china.huanqiu.com_                                     2
+		/data/news_data/all_news/china.huanqiu.com_/2015_01_06                          0 scrapy_failure
+		/data/news_data/all_news/china.huanqiu.com_/2015_01_07                          0 scrapy_failure
+	/data/news_data/all_news/www.shsafety.gov.cn_art                                5
+		/data/news_data/all_news/www.shsafety.gov.cn_art/2015_01_08                     0 scrapy_failure
+		/data/news_data/all_news/www.shsafety.gov.cn_art/2015_01_06                     2  too_small
+		/data/news_data/all_news/www.shsafety.gov.cn_art/2015_01_10                     2  too_small
+		/data/news_data/all_news/www.shsafety.gov.cn_art/2015_01_07                     0 scrapy_failure
+		/data/news_data/all_news/www.shsafety.gov.cn_art/2015_01_09                     0 scrapy_failure
+	/data/news_data/all_news/news.china.com_zh_cn_so                                5
+		/data/news_data/all_news/news.china.com_zh_cn_so/2015_01_08                    52
+		/data/news_data/all_news/news.china.com_zh_cn_so/2015_01_06                   106
+		/data/news_data/all_news/news.china.com_zh_cn_so/2015_01_10                    90
+		/data/news_data/all_news/news.china.com_zh_cn_so/2015_01_07                    54
+		/data/news_data/all_news/news.china.com_zh_cn_so/2015_01_09                    62
+	/data/news_data/all_news/gd.qq.com_news_                                        5
+		/data/news_data/all_news/gd.qq.com_news_/2015_01_08                            86
+		/data/news_data/all_news/gd.qq.com_news_/2015_01_06                            19
+		/data/news_data/all_news/gd.qq.com_news_/2015_01_10                            26
+		/data/news_data/all_news/gd.qq.com_news_/2015_01_07                            27
+		/data/news_data/all_news/gd.qq.com_news_/2015_01_09                            40
+	/data/news_data/all_news/leaders.people.com.cn_G                                2
+		/data/news_data/all_news/leaders.people.com.cn_G/2015_01_06                     3  too_small
+		/data/news_data/all_news/leaders.people.com.cn_G/2015_01_07                     0 scrapy_failure
+	/data/news_data/all_news/www.sh.chinanews.com_sh                                5
+		/data/news_data/all_news/www.sh.chinanews.com_sh/2015_01_08                     0 scrapy_failure
+		/data/news_data/all_news/www.sh.chinanews.com_sh/2015_01_06                     0 scrapy_failure
+		/data/news_data/all_news/www.sh.chinanews.com_sh/2015_01_10                     0 scrapy_failure
+		/data/news_data/all_news/www.sh.chinanews.com_sh/2015_01_07                     0 scrapy_failure
+		/data/news_data/all_news/www.sh.chinanews.com_sh/2015_01_09                     0 scrapy_failure
+	/data/news_data/all_news/sh.qq.com_news_                                        5
+		/data/news_data/all_news/sh.qq.com_news_/2015_01_08                            70
+		/data/news_data/all_news/sh.qq.com_news_/2015_01_06                            56
+		/data/news_data/all_news/sh.qq.com_news_/2015_01_10                            45
+		/data/news_data/all_news/sh.qq.com_news_/2015_01_07                            68
+		/data/news_data/all_news/sh.qq.com_news_/2015_01_09                            62
+	/data/news_data/all_news/www.nxsafety.gov.cn_sgt                                5
+		/data/news_data/all_news/www.nxsafety.gov.cn_sgt/2015_01_08                     0 scrapy_failure
+		/data/news_data/all_news/www.nxsafety.gov.cn_sgt/2015_01_06                     0 scrapy_failure
+		/data/news_data/all_news/www.nxsafety.gov.cn_sgt/2015_01_10                     0 scrapy_failure
+		/data/news_data/all_news/www.nxsafety.gov.cn_sgt/2015_01_07                     0 scrapy_failure
+		/data/news_data/all_news/www.nxsafety.gov.cn_sgt/2015_01_09                     0 scrapy_failure
+	/data/news_data/all_news/hn.qq.com_l_news_ms_lis                                5
+		/data/news_data/all_news/hn.qq.com_l_news_ms_lis/2015_01_08                    50
+		/data/news_data/all_news/hn.qq.com_l_news_ms_lis/2015_01_06                    33
+		/data/news_data/all_news/hn.qq.com_l_news_ms_lis/2015_01_10                    30
+		/data/news_data/all_news/hn.qq.com_l_news_ms_lis/2015_01_07                    63
+		/data/news_data/all_news/hn.qq.com_l_news_ms_lis/2015_01_09                    42
+	/data/news_data/all_news/news.china.com_zh_cn_do                                5
+		/data/news_data/all_news/news.china.com_zh_cn_do/2015_01_08                    70
+		/data/news_data/all_news/news.china.com_zh_cn_do/2015_01_06                   182
+		/data/news_data/all_news/news.china.com_zh_cn_do/2015_01_10                   151
+		/data/news_data/all_news/news.china.com_zh_cn_do/2015_01_07                   102
+		/data/news_data/all_news/news.china.com_zh_cn_do/2015_01_09                    98
+	/data/news_data/all_news/news.china.com.cn_node_                                5
+		/data/news_data/all_news/news.china.com.cn_node_/2015_01_08                    15
+		/data/news_data/all_news/news.china.com.cn_node_/2015_01_06                    33
+		/data/news_data/all_news/news.china.com.cn_node_/2015_01_10                    26
+		/data/news_data/all_news/news.china.com.cn_node_/2015_01_07                    16
+		/data/news_data/all_news/news.china.com.cn_node_/2015_01_09                    12
+	/data/news_data/all_news/shehui.news.baidu.com_                                 2
+		/data/news_data/all_news/shehui.news.baidu.com_/2015_01_06                     54
+		/data/news_data/all_news/shehui.news.baidu.com_/2015_01_07                     12
+	/data/news_data/all_news/www.jxsafety.gov.cn_new                                5
+		/data/news_data/all_news/www.jxsafety.gov.cn_new/2015_01_08                    12
+		/data/news_data/all_news/www.jxsafety.gov.cn_new/2015_01_06                    15
+		/data/news_data/all_news/www.jxsafety.gov.cn_new/2015_01_10                    25
+		/data/news_data/all_news/www.jxsafety.gov.cn_new/2015_01_07                     0 scrapy_failure
+		/data/news_data/all_news/www.jxsafety.gov.cn_new/2015_01_09                    12
+	/data/news_data/all_news/news.cyol.com_node_1000                                5
+		/data/news_data/all_news/news.cyol.com_node_1000/2015_01_08                     0 scrapy_failure
+		/data/news_data/all_news/news.cyol.com_node_1000/2015_01_06                     0 scrapy_failure
+		/data/news_data/all_news/news.cyol.com_node_1000/2015_01_10                     0 scrapy_failure
+		/data/news_data/all_news/news.cyol.com_node_1000/2015_01_07                     0 scrapy_failure
+		/data/news_data/all_news/news.cyol.com_node_1000/2015_01_09                     0 scrapy_failure
+	/data/news_data/all_news/222.74.213.213:81_A__L-                                3
+		/data/news_data/all_news/222.74.213.213:81_A__L-/2015_01_08                    20
+		/data/news_data/all_news/222.74.213.213:81_A__L-/2015_01_10                    20
+		/data/news_data/all_news/222.74.213.213:81_A__L-/2015_01_09                    16
+	/data/news_data/all_news/www.sx.chinanews.com_4_                                5
+		/data/news_data/all_news/www.sx.chinanews.com_4_/2015_01_08                     5  too_small
+		/data/news_data/all_news/www.sx.chinanews.com_4_/2015_01_06                   208
+		/data/news_data/all_news/www.sx.chinanews.com_4_/2015_01_10                   200
+		/data/news_data/all_news/www.sx.chinanews.com_4_/2015_01_07                    11
+		/data/news_data/all_news/www.sx.chinanews.com_4_/2015_01_09                     8  too_small
+	/data/news_data/all_news/news.china.com.cn_shehu                                5
+		/data/news_data/all_news/news.china.com.cn_shehu/2015_01_08                    29
+		/data/news_data/all_news/news.china.com.cn_shehu/2015_01_06                   121
+		/data/news_data/all_news/news.china.com.cn_shehu/2015_01_10                    98
+		/data/news_data/all_news/news.china.com.cn_shehu/2015_01_07                    48
+		/data/news_data/all_news/news.china.com.cn_shehu/2015_01_09                    25
+	/data/news_data/all_news/www.chinanews.com_china                                5
+		/data/news_data/all_news/www.chinanews.com_china/2015_01_08                   134
+		/data/news_data/all_news/www.chinanews.com_china/2015_01_06                   240
+		/data/news_data/all_news/www.chinanews.com_china/2015_01_10                   191
+		/data/news_data/all_news/www.chinanews.com_china/2015_01_07                   148
+		/data/news_data/all_news/www.chinanews.com_china/2015_01_09                   164
+	/data/news_data/all_news/www.jlsafety.gov.cn_sgx                                5
+		/data/news_data/all_news/www.jlsafety.gov.cn_sgx/2015_01_08                     0 scrapy_failure
+		/data/news_data/all_news/www.jlsafety.gov.cn_sgx/2015_01_06                     0 scrapy_failure
+		/data/news_data/all_news/www.jlsafety.gov.cn_sgx/2015_01_10                     0 scrapy_failure
+		/data/news_data/all_news/www.jlsafety.gov.cn_sgx/2015_01_07                     0 scrapy_failure
+		/data/news_data/all_news/www.jlsafety.gov.cn_sgx/2015_01_09                     0 scrapy_failure
+	/data/news_data/all_news/www.sh.chinanews.com_so                                5
+		/data/news_data/all_news/www.sh.chinanews.com_so/2015_01_08                     0 scrapy_failure
+		/data/news_data/all_news/www.sh.chinanews.com_so/2015_01_06                     0 scrapy_failure
+		/data/news_data/all_news/www.sh.chinanews.com_so/2015_01_10                     0 scrapy_failure
+		/data/news_data/all_news/www.sh.chinanews.com_so/2015_01_07                     0 scrapy_failure
+		/data/news_data/all_news/www.sh.chinanews.com_so/2015_01_09                     0 scrapy_failure
+	/data/news_data/all_news/shehui.news.baidu.com_n                                4
+		/data/news_data/all_news/shehui.news.baidu.com_n/2015_01_08                   226
+		/data/news_data/all_news/shehui.news.baidu.com_n/2015_01_10                    15
+		/data/news_data/all_news/shehui.news.baidu.com_n/2015_01_07                   151
+		/data/news_data/all_news/shehui.news.baidu.com_n/2015_01_09                   181
+	/data/news_data/all_news/www.hi.chinanews.com_gu                                5
+		/data/news_data/all_news/www.hi.chinanews.com_gu/2015_01_08                     0 scrapy_failure
+		/data/news_data/all_news/www.hi.chinanews.com_gu/2015_01_06                     0 scrapy_failure
+		/data/news_data/all_news/www.hi.chinanews.com_gu/2015_01_10                     0 scrapy_failure
+		/data/news_data/all_news/www.hi.chinanews.com_gu/2015_01_07                     0 scrapy_failure
+		/data/news_data/all_news/www.hi.chinanews.com_gu/2015_01_09                     0 scrapy_failure
+	/data/news_data/all_news/www.heb.chinanews.com_h                                5
+		/data/news_data/all_news/www.heb.chinanews.com_h/2015_01_08                     9  too_small
+		/data/news_data/all_news/www.heb.chinanews.com_h/2015_01_06                    68
+		/data/news_data/all_news/www.heb.chinanews.com_h/2015_01_10                    68
+		/data/news_data/all_news/www.heb.chinanews.com_h/2015_01_07                    10
+		/data/news_data/all_news/www.heb.chinanews.com_h/2015_01_09                    15
+	/data/news_data/all_news/www.cqsafety.gov.cn_inf                                1
+		/data/news_data/all_news/www.cqsafety.gov.cn_inf/2015_01_06                     0 scrapy_failure
+	/data/news_data/all_news/news.gmw.cn_newspaper_                                 5
+		/data/news_data/all_news/news.gmw.cn_newspaper_/2015_01_08                   1392
+		/data/news_data/all_news/news.gmw.cn_newspaper_/2015_01_06                   1610
+		/data/news_data/all_news/news.gmw.cn_newspaper_/2015_01_10                   1009
+		/data/news_data/all_news/news.gmw.cn_newspaper_/2015_01_07                   1369
+		/data/news_data/all_news/news.gmw.cn_newspaper_/2015_01_09                   1354
+	/data/news_data/all_news/www.xinhuanet.com_local                                5
+		/data/news_data/all_news/www.xinhuanet.com_local/2015_01_08                    13
+		/data/news_data/all_news/www.xinhuanet.com_local/2015_01_06                    55
+		/data/news_data/all_news/www.xinhuanet.com_local/2015_01_10                    45
+		/data/news_data/all_news/www.xinhuanet.com_local/2015_01_07                    11
+		/data/news_data/all_news/www.xinhuanet.com_local/2015_01_09                     1  too_small
+	/data/news_data/all_news/www.hlj.chinanews.com_f                                5
+		/data/news_data/all_news/www.hlj.chinanews.com_f/2015_01_08                     0 scrapy_failure
+		/data/news_data/all_news/www.hlj.chinanews.com_f/2015_01_06                   347
+		/data/news_data/all_news/www.hlj.chinanews.com_f/2015_01_10                   344
+		/data/news_data/all_news/www.hlj.chinanews.com_f/2015_01_07                     0 scrapy_failure
+		/data/news_data/all_news/www.hlj.chinanews.com_f/2015_01_09                     0 scrapy_failure
+	/data/news_data/all_news/www.bjsafety.gov.cn_acc                                5
+		/data/news_data/all_news/www.bjsafety.gov.cn_acc/2015_01_08                     1  too_small
+		/data/news_data/all_news/www.bjsafety.gov.cn_acc/2015_01_06                    19
+		/data/news_data/all_news/www.bjsafety.gov.cn_acc/2015_01_10                    19
+		/data/news_data/all_news/www.bjsafety.gov.cn_acc/2015_01_07                     1  too_small
+		/data/news_data/all_news/www.bjsafety.gov.cn_acc/2015_01_09                     1  too_small
+	/data/news_data/all_news/www.xj.chinanews.com_ht                                5
+		/data/news_data/all_news/www.xj.chinanews.com_ht/2015_01_08                     0 scrapy_failure
+		/data/news_data/all_news/www.xj.chinanews.com_ht/2015_01_06                     0 scrapy_failure
+		/data/news_data/all_news/www.xj.chinanews.com_ht/2015_01_10                     0 scrapy_failure
+		/data/news_data/all_news/www.xj.chinanews.com_ht/2015_01_07                     0 scrapy_failure
+		/data/news_data/all_news/www.xj.chinanews.com_ht/2015_01_09                     0 scrapy_failure
+	/data/news_data/all_news/www.news.cn_local_shwx.                                5
+		/data/news_data/all_news/www.news.cn_local_shwx./2015_01_08                     0 scrapy_failure
+		/data/news_data/all_news/www.news.cn_local_shwx./2015_01_06                    47
+		/data/news_data/all_news/www.news.cn_local_shwx./2015_01_10                    37
+		/data/news_data/all_news/www.news.cn_local_shwx./2015_01_07                     0 scrapy_failure
+		/data/news_data/all_news/www.news.cn_local_shwx./2015_01_09                     0 scrapy_failure
+	/data/news_data/all_news/cd.qq.com_news_                                        5
+		/data/news_data/all_news/cd.qq.com_news_/2015_01_08                            31
+		/data/news_data/all_news/cd.qq.com_news_/2015_01_06                            51
+		/data/news_data/all_news/cd.qq.com_news_/2015_01_10                            35
+		/data/news_data/all_news/cd.qq.com_news_/2015_01_07                            27
+		/data/news_data/all_news/cd.qq.com_news_/2015_01_09                            27
+	/data/news_data/all_news/www.ynsafety.gov.cn_cha                                5
+		/data/news_data/all_news/www.ynsafety.gov.cn_cha/2015_01_08                     0 scrapy_failure
+		/data/news_data/all_news/www.ynsafety.gov.cn_cha/2015_01_06                     0 scrapy_failure
+		/data/news_data/all_news/www.ynsafety.gov.cn_cha/2015_01_10                     0 scrapy_failure
+		/data/news_data/all_news/www.ynsafety.gov.cn_cha/2015_01_07                     0 scrapy_failure
+		/data/news_data/all_news/www.ynsafety.gov.cn_cha/2015_01_09                     0 scrapy_failure
+	/data/news_data/all_news/www.news.cn_local_index                                5
+		/data/news_data/all_news/www.news.cn_local_index/2015_01_08                    10
+		/data/news_data/all_news/www.news.cn_local_index/2015_01_06                     0 scrapy_failure
+		/data/news_data/all_news/www.news.cn_local_index/2015_01_10                    45
+		/data/news_data/all_news/www.news.cn_local_index/2015_01_07                     0 scrapy_failure
+		/data/news_data/all_news/www.news.cn_local_index/2015_01_09                    10
+	/data/news_data/all_news/www.gzaj.gov.cn_GZAJ_P_                                5
+		/data/news_data/all_news/www.gzaj.gov.cn_GZAJ_P_/2015_01_08                     4  too_small
+		/data/news_data/all_news/www.gzaj.gov.cn_GZAJ_P_/2015_01_06                    18
+		/data/news_data/all_news/www.gzaj.gov.cn_GZAJ_P_/2015_01_10                     9  too_small
+		/data/news_data/all_news/www.gzaj.gov.cn_GZAJ_P_/2015_01_07                     0 scrapy_failure
+		/data/news_data/all_news/www.gzaj.gov.cn_GZAJ_P_/2015_01_09                     4  too_small
+	/data/news_data/all_news/www.anhuisafety.gov.cn_                                5
+		/data/news_data/all_news/www.anhuisafety.gov.cn_/2015_01_08                     1  too_small
+		/data/news_data/all_news/www.anhuisafety.gov.cn_/2015_01_06                     0 scrapy_failure
+		/data/news_data/all_news/www.anhuisafety.gov.cn_/2015_01_10                     1  too_small
+		/data/news_data/all_news/www.anhuisafety.gov.cn_/2015_01_07                     0 scrapy_failure
+		/data/news_data/all_news/www.anhuisafety.gov.cn_/2015_01_09                     1  too_small
+	/data/news_data/all_news/www.zaobao.com_                                        5
+		/data/news_data/all_news/www.zaobao.com_/2015_01_08                             0 scrapy_failure
+		/data/news_data/all_news/www.zaobao.com_/2015_01_06                             0 scrapy_failure
+		/data/news_data/all_news/www.zaobao.com_/2015_01_10                             0 scrapy_failure
+		/data/news_data/all_news/www.zaobao.com_/2015_01_07                             0 scrapy_failure
+		/data/news_data/all_news/www.zaobao.com_/2015_01_09                             0 scrapy_failure
+	/data/news_data/all_news/www.szemo.gov.cn_yjjy_t                                5
+		/data/news_data/all_news/www.szemo.gov.cn_yjjy_t/2015_01_08                     0 scrapy_failure
+		/data/news_data/all_news/www.szemo.gov.cn_yjjy_t/2015_01_06                     0 scrapy_failure
+		/data/news_data/all_news/www.szemo.gov.cn_yjjy_t/2015_01_10                     0 scrapy_failure
+		/data/news_data/all_news/www.szemo.gov.cn_yjjy_t/2015_01_07                     0 scrapy_failure
+		/data/news_data/all_news/www.szemo.gov.cn_yjjy_t/2015_01_09                     0 scrapy_failure
+	/data/news_data/all_news/www.gd.chinanews.com_in                                5
+		/data/news_data/all_news/www.gd.chinanews.com_in/2015_01_08                     0 scrapy_failure
+		/data/news_data/all_news/www.gd.chinanews.com_in/2015_01_06                     0 scrapy_failure
+		/data/news_data/all_news/www.gd.chinanews.com_in/2015_01_10                     0 scrapy_failure
+		/data/news_data/all_news/www.gd.chinanews.com_in/2015_01_07                     0 scrapy_failure
+		/data/news_data/all_news/www.gd.chinanews.com_in/2015_01_09                     0 scrapy_failure
+	/data/news_data/all_news/life.gmw.cn_node_9267.h                                5
+		/data/news_data/all_news/life.gmw.cn_node_9267.h/2015_01_08                     9  too_small
+		/data/news_data/all_news/life.gmw.cn_node_9267.h/2015_01_06                    44
+		/data/news_data/all_news/life.gmw.cn_node_9267.h/2015_01_10                    56
+		/data/news_data/all_news/life.gmw.cn_node_9267.h/2015_01_07                     0 scrapy_failure
+		/data/news_data/all_news/life.gmw.cn_node_9267.h/2015_01_09                    39
+	/data/news_data/all_news/news.163.com_shehui_                                   5
+		/data/news_data/all_news/news.163.com_shehui_/2015_01_08                       55
+		/data/news_data/all_news/news.163.com_shehui_/2015_01_06                       54
+		/data/news_data/all_news/news.163.com_shehui_/2015_01_10                       17
+		/data/news_data/all_news/news.163.com_shehui_/2015_01_07                       54
+		/data/news_data/all_news/news.163.com_shehui_/2015_01_09                       58
+	/data/news_data/all_news/www.chinasafety.gov.cn_                                5
+		/data/news_data/all_news/www.chinasafety.gov.cn_/2015_01_08                     0 scrapy_failure
+		/data/news_data/all_news/www.chinasafety.gov.cn_/2015_01_06                     0 scrapy_failure
+		/data/news_data/all_news/www.chinasafety.gov.cn_/2015_01_10                     0 scrapy_failure
+		/data/news_data/all_news/www.chinasafety.gov.cn_/2015_01_07                     0 scrapy_failure
+		/data/news_data/all_news/www.chinasafety.gov.cn_/2015_01_09                     0 scrapy_failure
+	/data/news_data/all_news/hb.qq.com_news_                                        5
+		/data/news_data/all_news/hb.qq.com_news_/2015_01_08                            16
+		/data/news_data/all_news/hb.qq.com_news_/2015_01_06                            28
+		/data/news_data/all_news/hb.qq.com_news_/2015_01_10                            59
+		/data/news_data/all_news/hb.qq.com_news_/2015_01_07                             8  too_small
+		/data/news_data/all_news/hb.qq.com_news_/2015_01_09                            13
+	/data/news_data/all_news/www.gdsafety.gov.cn_syd                                5
+		/data/news_data/all_news/www.gdsafety.gov.cn_syd/2015_01_08                     1  too_small
+		/data/news_data/all_news/www.gdsafety.gov.cn_syd/2015_01_06                     4  too_small
+		/data/news_data/all_news/www.gdsafety.gov.cn_syd/2015_01_10                     2  too_small
+		/data/news_data/all_news/www.gdsafety.gov.cn_syd/2015_01_07                     0 scrapy_failure
+		/data/news_data/all_news/www.gdsafety.gov.cn_syd/2015_01_09                     1  too_small
+	/data/news_data/all_news/www.zjsafety.gov.cn_cn_                                5
+		/data/news_data/all_news/www.zjsafety.gov.cn_cn_/2015_01_08                     0 scrapy_failure
+		/data/news_data/all_news/www.zjsafety.gov.cn_cn_/2015_01_06                     0 scrapy_failure
+		/data/news_data/all_news/www.zjsafety.gov.cn_cn_/2015_01_10                     0 scrapy_failure
+		/data/news_data/all_news/www.zjsafety.gov.cn_cn_/2015_01_07                     0 scrapy_failure
+		/data/news_data/all_news/www.zjsafety.gov.cn_cn_/2015_01_09                     0 scrapy_failure
+	/data/news_data/all_news/news.ifeng.com_mainland                                5
+		/data/news_data/all_news/news.ifeng.com_mainland/2015_01_08                    72
+		/data/news_data/all_news/news.ifeng.com_mainland/2015_01_06                    28
+		/data/news_data/all_news/news.ifeng.com_mainland/2015_01_10                     0 scrapy_failure
+		/data/news_data/all_news/news.ifeng.com_mainland/2015_01_07                    85
+		/data/news_data/all_news/news.ifeng.com_mainland/2015_01_09                    74
+	/data/news_data/all_news/yuqing.cyol.com_                                       5
+		/data/news_data/all_news/yuqing.cyol.com_/2015_01_08                            0 scrapy_failure
+		/data/news_data/all_news/yuqing.cyol.com_/2015_01_06                            0 scrapy_failure
+		/data/news_data/all_news/yuqing.cyol.com_/2015_01_10                            0 scrapy_failure
+		/data/news_data/all_news/yuqing.cyol.com_/2015_01_07                            0 scrapy_failure
+		/data/news_data/all_news/yuqing.cyol.com_/2015_01_09                            0 scrapy_failure
+	/data/news_data/all_news/www.bj.chinanews.com_fo                                5
+		/data/news_data/all_news/www.bj.chinanews.com_fo/2015_01_08                     6  too_small
+		/data/news_data/all_news/www.bj.chinanews.com_fo/2015_01_06                   395
+		/data/news_data/all_news/www.bj.chinanews.com_fo/2015_01_10                   388
+		/data/news_data/all_news/www.bj.chinanews.com_fo/2015_01_07                     9  too_small
+		/data/news_data/all_news/www.bj.chinanews.com_fo/2015_01_09                    15
+	/data/news_data/all_news/www.ah.chinanews.com_                                  5
+		/data/news_data/all_news/www.ah.chinanews.com_/2015_01_08                      45
+		/data/news_data/all_news/www.ah.chinanews.com_/2015_01_06                      69
+		/data/news_data/all_news/www.ah.chinanews.com_/2015_01_10                      31
+		/data/news_data/all_news/www.ah.chinanews.com_/2015_01_07                      46
+		/data/news_data/all_news/www.ah.chinanews.com_/2015_01_09                      49
+	/data/news_data/all_news/hn.qq.com_l_news_sz_lis                                5
+		/data/news_data/all_news/hn.qq.com_l_news_sz_lis/2015_01_08                    13
+		/data/news_data/all_news/hn.qq.com_l_news_sz_lis/2015_01_06                    30
+		/data/news_data/all_news/hn.qq.com_l_news_sz_lis/2015_01_10                    30
+		/data/news_data/all_news/hn.qq.com_l_news_sz_lis/2015_01_07                    18
+		/data/news_data/all_news/hn.qq.com_l_news_sz_lis/2015_01_09                    30
+	/data/news_data/all_news/ln.qq.com_l_news_loacln                                5
+		/data/news_data/all_news/ln.qq.com_l_news_loacln/2015_01_08                     0 scrapy_failure
+		/data/news_data/all_news/ln.qq.com_l_news_loacln/2015_01_06                    16
+		/data/news_data/all_news/ln.qq.com_l_news_loacln/2015_01_10                    11
+		/data/news_data/all_news/ln.qq.com_l_news_loacln/2015_01_07                     0 scrapy_failure
+		/data/news_data/all_news/ln.qq.com_l_news_loacln/2015_01_09                     1  too_small
+	/data/news_data/all_news/www.hubeisafety.gov.cn_                                1
+		/data/news_data/all_news/www.hubeisafety.gov.cn_/2015_01_06                     0 scrapy_failure
+	/data/news_data/all_news/news.china.com.cn_                                     5
+		/data/news_data/all_news/news.china.com.cn_/2015_01_08                         44
+		/data/news_data/all_news/news.china.com.cn_/2015_01_06                         45
+		/data/news_data/all_news/news.china.com.cn_/2015_01_10                         44
+		/data/news_data/all_news/news.china.com.cn_/2015_01_07                         75
+		/data/news_data/all_news/news.china.com.cn_/2015_01_09                         62
+	/data/news_data/all_news/www.jx.chinanews.com_so                                5
+		/data/news_data/all_news/www.jx.chinanews.com_so/2015_01_08                     2  too_small
+		/data/news_data/all_news/www.jx.chinanews.com_so/2015_01_06                    92
+		/data/news_data/all_news/www.jx.chinanews.com_so/2015_01_10                    55
+		/data/news_data/all_news/www.jx.chinanews.com_so/2015_01_07                     0 scrapy_failure
+		/data/news_data/all_news/www.jx.chinanews.com_so/2015_01_09                     2  too_small
+	/data/news_data/all_news/news.qq.com_china_index                                5
+		/data/news_data/all_news/news.qq.com_china_index/2015_01_08                     0 scrapy_failure
+		/data/news_data/all_news/news.qq.com_china_index/2015_01_06                     0 scrapy_failure
+		/data/news_data/all_news/news.qq.com_china_index/2015_01_10                     1  too_small
+		/data/news_data/all_news/news.qq.com_china_index/2015_01_07                     0 scrapy_failure
+		/data/news_data/all_news/news.qq.com_china_index/2015_01_09                     0 scrapy_failure
+	/data/news_data/all_news/bj.jjj.qq.com_news_                                    5
+		/data/news_data/all_news/bj.jjj.qq.com_news_/2015_01_08                        19
+		/data/news_data/all_news/bj.jjj.qq.com_news_/2015_01_06                        25
+		/data/news_data/all_news/bj.jjj.qq.com_news_/2015_01_10                        29
+		/data/news_data/all_news/bj.jjj.qq.com_news_/2015_01_07                        33
+		/data/news_data/all_news/bj.jjj.qq.com_news_/2015_01_09                        38
+	/data/news_data/all_news/society.people.com.cn_G                                5
+		/data/news_data/all_news/society.people.com.cn_G/2015_01_08                   305
+		/data/news_data/all_news/society.people.com.cn_G/2015_01_06                   231
+		/data/news_data/all_news/society.people.com.cn_G/2015_01_10                    55
+		/data/news_data/all_news/society.people.com.cn_G/2015_01_07                   375
+		/data/news_data/all_news/society.people.com.cn_G/2015_01_09                   275
+	/data/news_data/all_news/news.163.com_domestic_                                 5
+		/data/news_data/all_news/news.163.com_domestic_/2015_01_08                     30
+		/data/news_data/all_news/news.163.com_domestic_/2015_01_06                     34
+		/data/news_data/all_news/news.163.com_domestic_/2015_01_10                     20
+		/data/news_data/all_news/news.163.com_domestic_/2015_01_07                     66
+		/data/news_data/all_news/news.163.com_domestic_/2015_01_09                     46
+	/data/news_data/all_news/www.hebsafety.gov.cn_in                                5
+		/data/news_data/all_news/www.hebsafety.gov.cn_in/2015_01_08                     0 scrapy_failure
+		/data/news_data/all_news/www.hebsafety.gov.cn_in/2015_01_06                     0 scrapy_failure
+		/data/news_data/all_news/www.hebsafety.gov.cn_in/2015_01_10                     0 scrapy_failure
+		/data/news_data/all_news/www.hebsafety.gov.cn_in/2015_01_07                     0 scrapy_failure
+		/data/news_data/all_news/www.hebsafety.gov.cn_in/2015_01_09                     0 scrapy_failure
+	/data/news_data/all_news/www.jl.chinanews.com_jl                                5
+		/data/news_data/all_news/www.jl.chinanews.com_jl/2015_01_08                     0 scrapy_failure
+		/data/news_data/all_news/www.jl.chinanews.com_jl/2015_01_06                     0 scrapy_failure
+		/data/news_data/all_news/www.jl.chinanews.com_jl/2015_01_10                     0 scrapy_failure
+		/data/news_data/all_news/www.jl.chinanews.com_jl/2015_01_07                     0 scrapy_failure
+		/data/news_data/all_news/www.jl.chinanews.com_jl/2015_01_09                     1  too_small
+	/data/news_data/all_news/www.gx.chinanews.com_GB                                5
+		/data/news_data/all_news/www.gx.chinanews.com_GB/2015_01_08                     0 scrapy_failure
+		/data/news_data/all_news/www.gx.chinanews.com_GB/2015_01_06                     0 scrapy_failure
+		/data/news_data/all_news/www.gx.chinanews.com_GB/2015_01_10                     0 scrapy_failure
+		/data/news_data/all_news/www.gx.chinanews.com_GB/2015_01_07                     0 scrapy_failure
+		/data/news_data/all_news/www.gx.chinanews.com_GB/2015_01_09                     0 scrapy_failure
+---------------------------------
+all_dir_number  :           114
+all_total_number:         25973
+date_number_dict: 
+{'2015_01_07': 4630, '2015_01_09': 4347, '2015_01_08': 4281, '2015_01_10': 5531, '2015_01_06': 7184}
+
+
+directory:  /data/news_data/baidu_news
+========================================================================================================================
+director                                                                             number
+	/data/news_data/baidu_news/2015_01_03                                         124
+	/data/news_data/baidu_news/2015_01_08                                         187
+	/data/news_data/baidu_news/2014_12_30                                         117
+	/data/news_data/baidu_news/2014_12_29                                         250
+	/data/news_data/baidu_news/2014_12_26                                          57
+	/data/news_data/baidu_news/2015_01_06                                           0
+	/data/news_data/baidu_news/2015_01_04                                           0
+	/data/news_data/baidu_news/2015_01_01                                         163
+	/data/news_data/baidu_news/2014_12_28                                          94
+	/data/news_data/baidu_news/2015_01_02                                          69
+	/data/news_data/baidu_news/2015_01_10                                          67
+	/data/news_data/baidu_news/2015_01_07                                         800
+	/data/news_data/baidu_news/2015_01_09                                         717
+	/data/news_data/baidu_news/2015_01_05                                           0
+	/data/news_data/baidu_news/2014_12_27                                          85
+	/data/news_data/baidu_news/2014_12_31                                         232
+---------------------------------
+all_dir_number  :            16
+all_total_number:             0
+date_number_dict: 
+{}
+
+
+

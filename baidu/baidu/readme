@@ -1,0 +1,1 @@
+cd /home/luokun/study/git_study/scrapy_mysql/baidu/baidu/  &&  nohup ./auto_scrapy_baidu.sh>log  2>&1 &
